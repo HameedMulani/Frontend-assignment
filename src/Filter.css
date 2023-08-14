@@ -1,0 +1,31 @@
+/* Filter.css */
+.Filter {
+    display: flex;
+    align-items: center; /* Center vertically */
+    /* justify-content: center; Center horizontally */
+}
+.d-flex {
+  display: flex !important;
+  justify-content: center !important; /* Center horizontally */
+}
+  .columnname{
+    font-size : 10px ;
+    font-weight: bold;
+  }
+  .group {
+    flex: 1;
+    /* justify-content: center; */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
